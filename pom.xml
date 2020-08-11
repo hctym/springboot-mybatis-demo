@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.hctym</groupId>
 	<artifactId>spring-mybatis</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-mybatis</name>
 	<description>Spring-Mybatis project for Spring Boot</description>
@@ -78,6 +79,20 @@
 			<groupId>com.fasterxml.jackson.module</groupId>
 			<artifactId>jackson-module-parameter-names</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.xerial.snappy/snappy-java -->
+		<!--<dependency>-->
+			<!--<groupId>org.xerial.snappy</groupId>-->
+			<!--<artifactId>snappy-java</artifactId>-->
+			<!--<version>1.1.7.1</version>-->
+		<!--</dependency>-->
+		<!-- https://mvnrepository.com/artifact/org.xerial.snappy/snappy-java -->
+		<dependency>
+			<groupId>org.xerial.snappy</groupId>
+			<artifactId>snappy-java</artifactId>
+			<version>1.1.1.7</version>
+		</dependency>
+
+
 
 
 	</dependencies>

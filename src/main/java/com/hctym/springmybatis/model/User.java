@@ -1,5 +1,9 @@
 package com.hctym.springmybatis.model;
 
+import java.util.concurrent.ThreadPoolExecutor;
+
+import static java.util.concurrent.Executors.*;
+
 public class User {
     private Integer userId;
 
@@ -39,5 +43,12 @@ public class User {
 
     public void setPhone(String phone) {
         this.phone = phone == null ? null : phone.trim();
+    }
+
+    public static void main(String[] args) {
+//        String
+        String a = new String();
+        ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor) newScheduledThreadPool(2);
+
     }
 }

@@ -25,4 +25,12 @@ public class UserController {
         return userService.addUser(user);
     }
 
+
+
+    @RequestMapping("test/{id}")
+    @ResponseBody
+    public String demo(@PathVariable int id){
+        return "hello mock "+id;
+    }
+
 }
